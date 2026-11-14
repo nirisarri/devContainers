@@ -1,0 +1,4 @@
+[tools]
+claude = "latest"
+uv = "latest"
+python = "latest"

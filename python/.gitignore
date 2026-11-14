@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+develop-eggs/
+.eggs/
+*.egg-info
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment configuration
+.env
+.env.*
+
+# Tooling caches and reports
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+.pytype/
+.tox/
+.nox/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store

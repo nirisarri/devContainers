@@ -1,0 +1,12 @@
+{
+  "name": "python",
+  "dockerComposeFile": ["../compose.yaml", "compose.yaml"],
+  "service": "workspace",
+  "runServices": ["db", "pgadmin"],
+  "workspaceFolder": "/workspaces/python",
+  "shutdownAction": "stopCompose",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
+  "forwardPorts": [8000]
+}

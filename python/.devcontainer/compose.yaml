@@ -1,0 +1,13 @@
+# Relative paths resolve against the repo root, because devcontainer.json lists
+# ../compose.yaml first and Compose uses the first file's directory as the project directory.
+services:
+  workspace:
+    image: mcr.microsoft.com/devcontainers/base:ubuntu
+    init: true
+    command: sleep infinity
+    volumes:
+      - .:/workspaces/pysample:cached
+      - /var/run/docker.sock:/var/run/docker-host.sock
+    depends_on:
+      db:
+        condition: service_healthy
