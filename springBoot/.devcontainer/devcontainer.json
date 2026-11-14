@@ -1,0 +1,12 @@
+{
+  "name": "Java Dev Container",
+  "image": "ubuntu:latest",
+  "features:": {
+    "ghcr.io/s1n7ax/devcontainer-features/jdk19:0": {},
+    "ghcr.io/s1n7ax/devcontainer-features/gradle:0": {},
+    "ghcr.io/s1n7ax/devcontainer-features/maven:0": {},
+    "ghcr.io/s1n7ax/devcontainer-features/neovim-essentials:0": {},
+    "ghcr.io/s1n7ax/devcontainer-features/neovim": {},
+    "ghcr.io/s1n7ax/devcontainer-features/astronvim": {}
+  }
+}

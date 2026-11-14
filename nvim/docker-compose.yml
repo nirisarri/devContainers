@@ -1,0 +1,10 @@
+services:
+  nvim:
+    image: ghcr.io/lanjelin/nvim-docker:latest
+    container_name: nvim
+    stdin_open: true
+    tty: true
+    volumes:
+      - /mnt/user/appdata/nvim-docker:/root
+    environment:
+      - NVIM_DISTRO=lazyvim

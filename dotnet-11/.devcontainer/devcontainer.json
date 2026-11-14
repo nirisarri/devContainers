@@ -1,0 +1,13 @@
+{
+  "name": "C# (.NET 11)",
+  "image": "mcr.microsoft.com/devcontainers/dotnet:11.0-preview",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
